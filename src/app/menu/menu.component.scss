@@ -1,0 +1,24 @@
+.bg-menu {
+
+    background: linear-gradient(119deg, #040E5B 0%, #080E6B 100%);
+    box-shadow: 0 8px 32px 0 rgba(60, 73, 222, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+}
+
+.bg-dropdown {
+
+    background: transparent;
+    border: none;
+
+}
+
+a {
+
+    font-size: 20px;
+
+}
