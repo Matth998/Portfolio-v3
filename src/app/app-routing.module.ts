@@ -7,11 +7,9 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
 
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: '', component: HomeComponent},
 
-  {path: 'home', component: HomeComponent},
-
-  {path: 'feed', component: FeedComponent},
+  {path: 'home', component: FeedComponent},
 
   {path: 'error-404', component: Error404Component},
 

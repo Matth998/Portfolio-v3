@@ -1,0 +1,22 @@
+.bg-list{
+
+    background: transparent;
+    border: none;
+
+}
+
+.img-perfil{
+
+    display: block;
+
+}
+
+@media(max-width: 785px){
+
+    .img-perfil{
+
+        display: none;
+
+    }
+
+}
