@@ -17,11 +17,13 @@ export class FeedComponent implements OnInit {
 
   ngOnInit(){
 
-    // if(environment.validation == false){
+    if(environment.validation == false){
 
-    //   this.router.navigate(['/home']);
+      this.router.navigate(['']);
 
-    // }
+    }
+
+    window.scroll(0, 0)
 
   }
 
